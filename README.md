@@ -9,8 +9,8 @@ Dependencies
 ------------
 
 This code depends on:
- - [GYP](https://gyp.gsrc.io/)
- - [IPP](https://software.intel.com/en-us/intel-ipp/details)
+ * [GYP](https://gyp.gsrc.io/)
+ * [IPP](https://software.intel.com/en-us/intel-ipp/details)
 
 IPP can be installed from here.
 
@@ -26,8 +26,8 @@ This codebase is intended to be linked into a project that uses [GYP](https://gy
     ],
 ```
 
-into the parent project's .gyp file. Where veclib_dir is the directory that this file resides in.
+into the parent project's .gyp file. Here veclib_dir is the directory that this file resides in.
 
 Due to the IPP dependency, this library must be added to a <(veclib_dir)/thirdparty directory. Information on installing this library can be found [here](https://software.intel.com/en-us/articles/free-ipp). 
 
-For convenience on OSX a script is provided to pull this library in if it is installed on your machine.
+For convenience on OSX a script `pull_thirdparty_osx.sh` is provided to pull this library in if it is installed on your machine.
