@@ -12,7 +12,7 @@ This code depends on:
  * [GYP](https://gyp.gsrc.io/)
  * [IPP](https://software.intel.com/en-us/intel-ipp/details)
 
-IPP can be installed from [here](https://software.intel.com/en-us/intel-ipp/details).
+IPP can be installed from here.
 
 Install
 -------
