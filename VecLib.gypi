@@ -16,17 +16,17 @@
     {
       'include_dirs': 
       [
-        './src',
+        './',
       ],
 
       'sources': 
       [
+        'FFT.h',
         'src/FFT.cpp',
-        'src/FFT.h',
+        'sig_gen.h',
         'src/sig_gen.cpp',
-        'src/sig_gen.h',
+        'vector_functions.h',
         'src/vector_functions.cpp',
-        'src/vector_functions.h',
       ],
 
       'link_settings': 
