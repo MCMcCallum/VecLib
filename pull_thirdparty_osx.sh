@@ -45,7 +45,7 @@ pushd "${ROOT_DIR}"
     if [ ! -e "${LIB_DIR}/libippsmerged.a" ]; then
         cp "${IPP_BASE_DIR}/lib/libippcore.a" "${LIB_DIR}/libippcore.a"
         cp "${IPP_BASE_DIR}/lib/libipps.a" "${LIB_DIR}/libipps.a"
-        cp "${IPP_BASE_DIR}/lib/libippvm.a" "${LIB_DIR}/libippsvm.a"
+        cp "${IPP_BASE_DIR}/lib/libippvm.a" "${LIB_DIR}/libippvm.a"
 
         mkdir "${INCLUDE_DIR}/ipp/"
         cp "${IPP_BASE_DIR}/include/"*.h "${INCLUDE_DIR}/ipp/"
