@@ -1,3 +1,6 @@
+# Directories
+/thirdparty
+
 # Prerequisites
 *.d
 
